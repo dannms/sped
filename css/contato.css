@@ -1,0 +1,32 @@
+.contact-section .form .btn-floating {
+  left: 3px;
+}
+
+.md-form
+  input[type="text"]:not(.browser-default):focus:not([readonly])
+  + label {
+  font-weight: 700;
+  color: #280071;
+}
+
+.md-form
+  input[type="textarea"]:not(.browser-default):focus:not([readonly])
+  + label {
+  font-weight: 700;
+  color: #280071;
+}
+
+.md-form input[type="text"]:not(.browser-default):focus:not([readonly]) {
+  border-bottom: 1px solid #280071;
+  box-shadow: 0 1px 0 0 #280071;
+}
+
+.md-form textarea.md-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #280071;
+  box-shadow: 0 1px 0 0 #280071;
+}
+
+.md-form textarea.md-textarea:focus:not([readonly]) + label {
+  font-weight: 700;
+  color: #280071;
+}

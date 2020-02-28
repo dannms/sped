@@ -1,0 +1,21 @@
+.valores {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.valores .valores-item {
+  max-width: 20rem;
+}
+
+.valores .valores-item .valores-icon {
+  height: 7rem;
+}
+
+.valores .valores-item .valores-icon i {
+  font-size: 4.5rem;
+}
+
+.valores .valores-item:hover .valores-icon i {
+  font-size: 5rem;
+  transition: font-size .3s ease-in-out;
+}

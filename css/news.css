@@ -1,0 +1,47 @@
+.news {
+  margin-bottom: 3em;
+}
+
+.news-header {
+  text-shadow: 1px 0px 1px #cccccc, 
+               0px 1px 1px #eeeeee, 
+               1px 1px 1px #cccccc,
+               1px 1px 1px #eeeeee, 
+               1px 1px 1px #cccccc, 
+               1px 1px 1px #eeeeee,
+               1px 1px 1px #cccccc, 
+               1px 1px 1px #eeeeee, 
+               1px 1px 1px #cccccc,
+               1px 1px 1px #eeeeee, 
+               1px 1px 1px #cccccc, 
+               1px 1px 1px #eeeeee,
+               3px 3px 1px #cccccc;
+}
+
+.news-image {
+  height: 4em;
+  border-radius: 50%;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12),
+    0 4px 4px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.12);
+}
+
+.card-header {
+  background-color: #280071;
+  color: #fff;
+}
+
+.media{
+    overflow: hidden;
+}
+
+.media-body{
+    padding-left: 1em;
+}
+
+.wrap-news{
+    height: .1em;
+    margin: 1em;
+    width: 100%;
+    align-self: center;
+    background: #cecece;
+}

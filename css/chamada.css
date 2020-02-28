@@ -1,0 +1,36 @@
+.btn.btn-lg{
+  padding: .80rem 2.14rem;
+}
+.chamada {
+  position: relative;
+  background-color: #343a40;
+  background: url("../img/chamada.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.chamada .overlay {
+  position: absolute;
+  background-color: #280071;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+
+.chamada-btn{
+  color: #280071;
+  background-color: #fff;
+  font-weight: 700;
+  text-transform: none;
+}
+
+.chamada-btn:hover{
+  color: #fff;
+  background-color: #280071;
+  transition: all .3s ease-in-out;
+}
+
+

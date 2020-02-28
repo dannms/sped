@@ -1,0 +1,35 @@
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+}
+
+.navbar-nav a {
+  color: #fff;
+  font-weight: 700;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff;
+  padding-top: 0.7rem;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.navbar-dark .navbar-nav .nav-link.active::after {
+  width: 100%;
+}
+
+.navbar-dark .navbar-nav .nav-link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  transition: width 0.3s;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover::after {
+  width: 100%;
+}

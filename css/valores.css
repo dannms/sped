@@ -3,6 +3,19 @@
   padding-bottom: 7rem;
 }
 
+.valores-icons{
+  width: 5em;
+  height: 5em;
+  margin: auto;
+  align-self: center;
+}
+
+.valores-icons:hover{
+  width: 5.625em;
+  height: 5.625em;
+  transition: all .3s ease-in-out;
+}
+
 .valores .valores-item {
   max-width: 20rem;
 }

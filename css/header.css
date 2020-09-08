@@ -5,6 +5,7 @@ header.masthead {
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
+  max-height: 80vh;
 }
 
 header.masthead .overlay {
@@ -19,14 +20,26 @@ header.masthead .overlay {
 
 header.masthead h1 {
   font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: .3rem;
+}
+
+header .subtitle{
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 12rem;
+    padding-top: 8rem;
     padding-bottom: 12rem;
   }
   header.masthead h1 {
-    font-size: 2.5rem;
+    font-size: 5rem;
+    letter-spacing: .3rem;
+  }
+  header .subtitle{
+    font-weight: bold;
+    font-size: 2rem;
   }
 }

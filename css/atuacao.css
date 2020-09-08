@@ -1,4 +1,13 @@
-.overlay{
+.overlay {
     filter: hue-rotate(220deg);
     opacity: .8;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+.icon-atuacao {
+    margin: 1rem;
+    width: 4rem;
 }

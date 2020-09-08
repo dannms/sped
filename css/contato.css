@@ -30,3 +30,8 @@
   font-weight: 700;
   color: #280071;
 }
+
+.contact-social:hover{
+  color: teal;
+  transition: color .3s ease-in-out;
+}

@@ -1,11 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Noto+Serif:400,700&display=swap");
+@font-face {
+  font-family: 'Broadway';
+  src: url('../fonts/BroadwayRegular.woff2'), url('../fonts/BroadwayRegular.woff');
+}
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
@@ -34,5 +33,4 @@ body {
   border: 0.1em solid #280071;
   transition: all 0.3s ease-in-out;
 }
-
 

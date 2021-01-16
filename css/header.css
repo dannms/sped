@@ -19,9 +19,10 @@ header.masthead .overlay {
 }
 
 header.masthead h1 {
+  font-family: 'Broadway';
+  letter-spacing: 5px;
   font-size: 3rem;
   font-weight: bold;
-  letter-spacing: .3rem;
 }
 
 header .subtitle{

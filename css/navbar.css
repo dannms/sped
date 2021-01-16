@@ -10,6 +10,16 @@
   font-weight: 700;
 }
 
+.navbar img{
+  width: 300px;
+}
+
+@media screen and (max-width: 900px){
+  .navbar img{
+    width: 200px;
+  }
+}
+
 .navbar-dark .navbar-nav .nav-link {
   color: #ffffff;
   padding-top: 0.7rem;
